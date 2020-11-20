@@ -1,4 +1,4 @@
-import React, { ReactElement, useMemo } from "react";
+import React from "react";
 import { SvgFromUri, SvgProps } from "react-native-svg";
 
 interface TCIconProps extends SvgProps {
