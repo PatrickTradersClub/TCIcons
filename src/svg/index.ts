@@ -1,9 +1,8 @@
-import wrapIcon from '../utils/wrapIcon';
+import wrapIcon from "../utils/wrapIcon";
 
-
-export const Add = wrapIcon(require('./add.svg'));
+export const Add = wrapIcon(require("./add.svg"));
 // export {default as add} from './add.svg';
-// export {default as advance} from './advance.svg';
+export { default as advance } from "./advance.svg";
 // export {default as arroba} from './arroba.svg';
 // export {default as b} from './b.svg';
 // export {default as bagMoneyBlack} from './bag-money-black.svg';
