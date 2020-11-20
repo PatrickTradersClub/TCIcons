@@ -12,11 +12,11 @@
     "lib/"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && cp ./src/svg/*.svg ./lib/svg"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn build && cp ./src/svg/*.svg ./lib/svg && git add lib"
+      "pre-commit": "yarn build"
     }
   },
   "devDependencies": {
