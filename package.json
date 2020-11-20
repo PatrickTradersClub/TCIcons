@@ -2,13 +2,11 @@
   "name": "TCIconeSVG",
   "version": "1.0.0",
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Tradersclub",
   "license": "MIT",
   "devDependencies": {
-    "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "react-native": "^0.63.3",
     "react-native-svg": "^12.1.0"
   }

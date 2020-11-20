@@ -1,5 +1,5 @@
 import React, { ReactElement, useMemo, memo } from "react";
-import { View, ViewPropTypes } from "react-native";
+import { ViewPropTypes } from "react-native";
 import { SvgXml } from "react-native-svg";
 
 interface IconesSvgProps {
