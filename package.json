@@ -10,7 +10,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc --project ./tsconfig.json",
+    "build": "tsc --project ./tsconfig.json"
   },
   "devDependencies": {
     "@types/react": "^16.14.0",
