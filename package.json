@@ -19,6 +19,10 @@
       "pre-commit": "yarn build"
     }
   },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.60.0"
+  },
   "devDependencies": {
     "@types/react": "^16.14.0",
     "@types/react-native": "^0.63.36",
