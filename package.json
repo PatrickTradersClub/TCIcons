@@ -1,20 +1,28 @@
 {
   "name": "tc-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
   "author": "Tradersclub",
   "license": "MIT",
   "main": "lib/index.js",
+  "main-source": "src/index.ts",
+  "typings": "lib/index.d.ts",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/**/*"
+    "lib/"
   ],
   "scripts": {
-    "build": "tsc --project ./tsconfig.json"
+    "build": "tsc"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build && cp ./src/svg/*.svg ./lib/svg"
+    }
   },
   "devDependencies": {
     "@types/react": "^16.14.0",
     "@types/react-native": "^0.63.36",
+    "husky": "^4.3.0",
     "react": "^17.0.1",
     "react-native": "^0.63.3",
     "react-native-svg": "^12.1.0",
