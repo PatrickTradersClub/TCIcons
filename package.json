@@ -5,12 +5,6 @@
   "author": "Tradersclub",
   "license": "MIT",
   "main": "src/index.ts",
-  "main-source": "src/index.ts",
-  "typings": "lib/index.d.ts",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib/"
-  ],
   "scripts": {
     "build": "tsc && cp ./src/svg/*.svg ./lib/svg"
   },
