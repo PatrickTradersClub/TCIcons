@@ -1,5 +1,4 @@
 export {default as add} from './add.svg';
-export {default as area} from './area.svg';
 // export {default as add} from './add.svg';
 // export const Arrow = require("./Arrow.svg");
 // export {default as arroba} from './arroba.svg';
