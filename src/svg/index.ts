@@ -1,6 +1,6 @@
 import wrapIcon from "../utils/wrapIcon";
 
-export const Area = require("./Area,svg");
+export const Area = require("./Area.svg");
 // export {default as add} from './add.svg';
 export const Arrow = require("./Arrow.svg");
 // export {default as arroba} from './arroba.svg';

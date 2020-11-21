@@ -4,7 +4,13 @@
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
   "author": "Tradersclub",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "main-source": "src/index.ts",
+  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "build": "tsc && cp ./src/svg/*.svg ./lib/svg"
   },
