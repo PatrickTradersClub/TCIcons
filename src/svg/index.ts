@@ -1,8 +1,8 @@
 import wrapIcon from "../utils/wrapIcon";
 
-export const Add = wrapIcon(require("./add.svg"));
+export const Area = require("./Area,svg");
 // export {default as add} from './add.svg';
-export const Advance = require("./advance.svg");
+export const Arrow = require("./Arrow.svg");
 // export {default as arroba} from './arroba.svg';
 // export {default as b} from './b.svg';
 // export {default as bagMoneyBlack} from './bag-money-black.svg';

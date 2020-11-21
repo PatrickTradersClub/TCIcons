@@ -1,5 +1,5 @@
-import React, { ReactElement, useMemo } from "react";
-import { SvgFromUri, SvgProps } from "react-native-svg";
+import React, { ReactElement } from "react";
+import { SvgFromXml, SvgProps } from "react-native-svg";
 
 interface TCIconProps extends SvgProps {
   icon: string;
@@ -13,10 +13,10 @@ export default function TCIcon({
   preserveAspectRatio,
   color,
   title,
-}: TCIconProps) {
+}: TCIconProps): ReactElement {
   return (
-    <SvgFromUri
-      uri={icon}
+    <SvgFromXml
+      xml={icon}
       override={{
         width,
         height,
