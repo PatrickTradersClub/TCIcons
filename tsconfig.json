@@ -11,10 +11,6 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "rootDir": "src",
-    "typeRoots": [
-      "node_modules/@types",
-    "src/@types"
-    ],
     "types": [
       "react",
       "react-native"
