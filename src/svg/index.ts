@@ -242,7 +242,6 @@ import _userAdd from './user-add.svg';
 import _zoom from './zoom.svg';
 import _zoomOut from './zoom-out.svg';
 
-
 export const add = _add;
 export const advance = _advance;
 export const arroba = _arroba;
