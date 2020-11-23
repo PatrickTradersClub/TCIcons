@@ -1,14 +1,13 @@
 {
   "name": "tc-svg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
   "author": "Tradersclub",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc && rm -rf ./lib && mkdir ./lib && mkdir ./lib/svg && cp ./src/svg/*.svg ./lib/svg"
+    "build": "rm -rf ./lib && tsc && cp ./src/svg/*.svg ./lib/svg"
   },
   "husky": {
     "hooks": {
