@@ -1,16 +1,10 @@
-import React, { ReactElement, useMemo } from 'react';
-import { SvgFromUri, SvgProps  } from 'react-native-svg';
+import React, { ReactElement, useMemo } from "react";
+import { SvgXml, SvgProps } from "react-native-svg";
 
 interface TCSvgProps extends SvgProps {
-    icon: string;
-} 
+  icon: string;
+}
 
-export default function TCSvg({icon, width, height, viewBox, preserveAspectRatio, color, title}: TCSvgProps): ReactElement {
-
-    return (<SvgFromUri
-        uri={icon}
-        override={{
-            width, height, viewBox, preserveAspectRatio, color, title
-        }}
-        />)
+export default function TCSvg({ icon, ...props }: TCSvgProps): ReactElement {
+  return <SvgXml xml={icon} {...props} />;
 }
