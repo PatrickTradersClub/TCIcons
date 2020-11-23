@@ -1,4 +1,9 @@
+interface TCSvgProps extends SvgProps {
+    fill: string;
+}
+
 declare module "*.svg" {
-    const content: string;
+    import { SvgProps } from "react-native-svg";
+    const content: React.FC<TCSvgProps>;
     export default content;
-} 
+}
