@@ -1,12 +1,10 @@
 {
   "name": "tc-svg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
   "author": "Tradersclub",
   "license": "MIT",
   "main": "src/index.js",
-  "main-source": "src/index.ts",
-  "typings": "src/@types/index.d.ts",
   "types": "src/@types/index.d.ts",
   "scripts": {
     "build": "tsc"
