@@ -4,10 +4,11 @@
   "description": "Esse projeto tem como objetivo abertura dos svg`s",
   "author": "Tradersclub",
   "license": "MIT",
-  "main": "src/index.ts",
-  "types": "src/@types/index.d.ts",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && rm -rf ./lib && mkdir ./lib && mkdir ./lib/svg && cp ./src/svg/*.svg ./lib/svg"
   },
   "husky": {
     "hooks": {
